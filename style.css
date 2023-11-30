@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+.container {
+    margin: 20px auto;
+    width: 80%;
+}
+  
+form {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+  
+form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: calc(50% - 10px);
+}
+form .btn {
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 555px;
+    border-radius: 2px;
+} 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+thead {
+    background-color: #333;
+    color: white;
+}
+  
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #aaa;
+}
+  
+.task-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+.attendance-select {
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+}
